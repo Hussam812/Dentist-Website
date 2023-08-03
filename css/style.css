@@ -187,7 +187,11 @@ REUSED STYLE
 .w-100 {width: 100%;}
 
 .text-center {text-align: center;}
+.section-text,
 .card-text {line-height: 1.7;}
+
+
+
 /*header*/
 .header-top,
 .header-bottom .btn{display: none;}
@@ -344,3 +348,20 @@ navbar-list > li:not(:last-child){border-block-end: 1px solid var(--gainsboro_50
 }
 
 .service-card .card-title {margin-block-end: 8px;}
+
+/*ABOUT*/
+
+.about {
+    padding-block-end: 0;
+}
+
+.about-banner {margin-block-end: 50px;}
+
+.about .section-text-1{margin-block: 25px 15px;}
+
+.about .btn{
+    font-size: unset;
+    max-width: max-content;
+    margin-block-start: 30px;
+    padding-inline:  15px;
+}
