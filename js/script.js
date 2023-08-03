@@ -35,6 +35,7 @@ const closNav = () => {
     navbarToggler.classList.remove("active");
 }
 
+
 addeventOnElem(navLinks, "click", closNav);
 
 
@@ -49,10 +50,12 @@ window.addEventListener("scroll", () => {
         header.classList.add("active");
         backTopBtn.classList.add("active");
 
-    }else(
+    }else{
         header.classList.remove("active");
         backTopBtn.classList.remove("active");
+    }
+        
 
 
-    )
+    
 });
